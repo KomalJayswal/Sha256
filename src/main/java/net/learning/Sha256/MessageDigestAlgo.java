@@ -7,8 +7,6 @@ import java.security.NoSuchAlgorithmException;
 // MessageDigest is not thread-safe. Consequently, we should use a new instance for every thread.
 public class MessageDigestAlgo {
 
-
-
     public static void main(String[] args) throws NoSuchAlgorithmException {
 
         String password = "password";
